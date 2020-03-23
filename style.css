@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background: url('bg.jpg') no-repeat;
+    background-size: 100%; 
+}
+
+a {
+    text-decoration: none;
+    color: #c02bb4;
+}
+
+.root {
+    padding: 15px 100px;
+    color: #eedada;
+    text-shadow: 1px 1px #732372, 1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+.inputButton {
+    background-color: #e969d8;
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+.realSign {
+    display: hidden;
+    padding-top: 25px;
+    font-size: x-large;
+}
