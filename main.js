@@ -77,6 +77,9 @@ inputButton.addEventListener("click", getRealSign);
 function getRealSign() {
     signValue = signList.options[signList.selectedIndex].value;
     realSign.innerHTML = `Ваш настоящий знак зодиака - <b>${signValue}</b>. Не волнуйтесь, это никак не отразится на вашей жизни!`;
+    
+    // realSign.classList.add('disappear');
+    // realSign.style.display = 'hidden';
 }
 
 

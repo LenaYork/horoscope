@@ -28,3 +28,22 @@ a {
     padding-top: 25px;
     font-size: x-large;
 }
+
+.disappear {
+    display: hidden;
+    /* property duration timing-function delay */
+    /* transition: display 8s; */
+    transition-property: display;
+    transition-duration: 3s;
+}
+
+
+@media only screen and (max-width: 770px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .root {
+        font-size: small;
+    }
+}
