@@ -1,4 +1,5 @@
 # horoscope
 True horoscope: DOM events
 
-To check out the code visit this page: https://lenayork.github.io/horoscope
+To check out the horoscope visit this page: https://lenayork.github.io/horoscope
+HTML was build with the help of DOM-elements
